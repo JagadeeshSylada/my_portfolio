@@ -43,8 +43,8 @@ const Contact = () => {
             variants={itemVariants}
             className="text-xl text-gray-300 mb-12"
           >
-            I'm always open to new opportunities and collaborations.
-            Let's create something amazing together!
+            I&apos;m always open to new opportunities and collaborations.
+            Let&apos;s create something amazing together!
           </motion.p>
 
           <motion.div

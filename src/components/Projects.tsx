@@ -43,7 +43,7 @@ const Projects = () => {
       x: 0,
       opacity: 1,
       transition: {
-        type: 'spring',
+        type: 'spring' as const,
         stiffness: 100
       }
     }
@@ -70,7 +70,7 @@ const Projects = () => {
         >
           {projects.map((project, index) => (
             <motion.div
-              key={project.title}
+              key={index}
               variants={itemVariants}
               className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-lg p-8
                          border border-gray-700/50 hover:border-blue-500/50 transition-all duration-300
